@@ -11,6 +11,11 @@ function frameIt(){
 });
 }
 
+function pressIt(){
+  $('img').on("load", function(){
+    $('img').addClass("tasty");
+});
+}
 
 $(document).ready(function(){
 getIt();
