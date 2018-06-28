@@ -19,6 +19,10 @@ $("form").on('keydown', function(key) {
 });
 }
 
+function submitIt(){
+  
+}
+
 $(document).ready(function(){
 getIt();
 frameIt();
