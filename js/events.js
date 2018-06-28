@@ -6,14 +6,9 @@ function getIt(){
 }
 
 function frameIt(){
-  
-}
-
-function pressIt(){
-  
-}
-
-function submitIt(){
+  $('img').on("load", function(){
+    alert("Hey!");
+});
 }
 
 
